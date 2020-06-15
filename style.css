@@ -31,11 +31,19 @@ button.icon svg {
 }
 
 #appliances button {
+  height: 3em;
+  width: 3em;
   font-size: 2rem;
-  padding: 2rem 4rem;
   font-weight: 300;
   /* border-radius: 100%; */
 }
+
+.btn.btn-outline-dark:active,
+.btn.btn-outline-dark:hover {
+  color: #343a40;
+  background-color: white;
+}
+
 #settings {
   position: absolute;
   right: 1rem;
