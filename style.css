@@ -1,0 +1,43 @@
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  font-family: "Cutive Mono", monospace;
+  font-size: 62.5%;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#clock {
+  font-size: 18vw;
+}
+#info {
+  font-size: 8vw;
+}
+.sub-text {
+  font-size: 0.6em;
+}
+span.icon svg,
+button.icon svg {
+  width: 12%;
+}
+
+#appliances {
+  font-size: 2em;
+}
+
+#appliances button {
+  font-size: 2rem;
+  padding: 2rem 4rem;
+  font-weight: 300;
+  /* border-radius: 100%; */
+}
+#settings {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+}
